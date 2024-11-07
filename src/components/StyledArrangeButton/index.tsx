@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const StyledArrangeButton = styled.button`
+  width: 30px;
+  height: 30px;
   border: 2px solid #f5f5f5;
   background-color: #f5f5f5;
   border-radius: 6px;
-  height: 40px;
-  padding: 5px;
-  font-family: "Inter";
-  font-size: 1.25em;
-  color: #35383e;
+  padding: 3px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 `;
